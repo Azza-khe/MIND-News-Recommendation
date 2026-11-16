@@ -1,0 +1,35 @@
+
+# Environnements Python
+.venv/
+.venv_local/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Datasets originaux
+data/train/
+data/dev/
+
+# Données intermédiaires générées
+data/processed/
+
+# Résultats générés
+results/
+
+# Fichiers temporaires
+*.log
+*.tmp
+.DS_Store
